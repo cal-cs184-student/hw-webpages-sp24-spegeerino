@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Homework 1
-permalink: /hw1/
+title: Rasterizer [hw1]
+permalink: /rasterizer/
 ---
 
 This page hosts my Homework 1 writeup.
