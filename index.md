@@ -3,7 +3,7 @@ layout: default
 ---
 Welcome to the home page for my writeups.
  
-[Homework 1 - Rasterizer]({.{site.baseurl}}{% link rasterizer.md %})
+[Homework 1 - Rasterizer](/rasterizer/)
  
 Homework 2
  
