@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Rasterizer - Task 1: Drawing single-color triangles"
-permalink: /hw1/task1
+permalink: /rasterizer/task1
 ---
 
-hello testing 123
+Welcome to the task 1 writeup which I haven't started yet. 
