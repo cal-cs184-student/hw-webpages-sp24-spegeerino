@@ -5,4 +5,4 @@ permalink: /rasterizer/
 ---
 
 This page hosts my Homework 1 writeup.
-[Task 1: Drawing single-color triangles](/rasterizer/task1/)
+[Task 1: Drawing single-color triangles]({{site.baseurl}}{% link /rasterizer/task1/ %})
