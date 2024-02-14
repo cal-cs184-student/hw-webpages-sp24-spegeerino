@@ -8,13 +8,13 @@ permalink: /rasterizer/
 
 [Task 1: Drawing single-color triangles]({{site.baseurl}}/rasterizer/task1/)
 
-![Render of svg3](images/task1%20-%20render%20basic-svg3.png)
+![Sample rate 1 render of dragon](images/task1%20-%20render%20basic-svg3.png "Sample rate 1 render of dragon")
 
-![Render of svg4](images/task1%20-%20render%20basic-svg4.png)
+![Sample rate 1 render of colored triangles](images/task1%20-%20render%20basic-svg4.png "Sample rate 1 render of several colored triangles")
 
-![Render of svg5](images/task1%20-%20render%20basic-svg5.png)
+![Sample rate 1 render of a cube](images/task1%20-%20render%20basic-svg5.png "Sample rate 1 render of a cube")
 
-![Render of svg6](images/task1%20-%20render%20basic-svg6.png)
+![Sample rate 1 render of stars and hexagons](images/task1%20-%20render%20basic-svg6.png "Sample rate 1 render of stars and hexagons")
 
 [Task 2: Antialiasing by supersampling]({{site.baseurl}}/rasterizer/task2/)
 
