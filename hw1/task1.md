@@ -28,9 +28,9 @@ If we find that all of these line tests return a positive integer, we can call `
 And, just to be clear, since the code only ever iterates over the pixels in the bounding box, the required runtime complexity bound is achieved.
 
 ## The output
-![Sample rate 1 render of colored triangles with pixel viewer](images/task1%20-%20svg4+pixel-viewer.png "Sample rate 1 render of several colored triangles with pixel viewer")
+![Sample rate 1 render of colored triangles with pixel viewer](images/task1%20-%20svg4-w-pixel-viewer.png "Sample rate 1 render of colored triangles with pixel viewer")
 
-We can see some pretty heavy aliasing here, owing to the fact that this simple rasterizer doesn't take any measures to prevent it.
+We can see some pretty heavy aliasing here in the pixel viewer, owing to the fact that this simple rasterizer doesn't take any measures to prevent it.
 We address this problem in the next task.
 
 ## Some optimizations
