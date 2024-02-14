@@ -18,6 +18,21 @@ permalink: /rasterizer/
 
 [Task 2: Antialiasing by supersampling]({{site.baseurl}}/rasterizer/task2/)
 
+## Triangles comparison
+### 1 sample per pixel
+![Sample rate 1 render of colored triangles with pixel viewer](images/task2%20-%20svg4-SR1.png "Sample rate 1")
+### 4 samples per pixel
+![Sample rate 4 render of colored triangles with pixel viewer](images/task2%20-%20svg4-SR4.png "Sample rate 4")
+### 16 samples per pixel
+![Sample rate 16 render of colored triangles with pixel viewer](images/task2%20-%20svg4-SR16.png "Sample rate 16")
+## Cube comparison
+### 1 sample per pixel
+![Sample rate 1 render of cube with pixel viewer](images/task2%20-%20svg5-SR1.png "Sample rate 1")
+### 4 samples per pixel
+![Sample rate 4 render of cube with pixel viewer](images/task2%20-%20svg5-SR4.png "Sample rate 4")
+### 16 samples per pixel
+![Sample rate 16 render of cube with pixel viewer](images/task2%20-%20svg5-SR16.png "Sample rate 16")
+
 [Task 3: Transforms]({{site.baseurl}}/rasterizer/task3/)
 
 [Task 4: Barycentric coordinates]({{site.baseurl}}/rasterizer/task4/)

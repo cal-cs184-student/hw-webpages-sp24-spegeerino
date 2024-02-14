@@ -5,3 +5,4 @@ permalink: /rasterizer/task2/
 ---
 
 # Task 2: Antialiasing by supersampling
+
