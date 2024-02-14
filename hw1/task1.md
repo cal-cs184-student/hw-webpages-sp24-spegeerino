@@ -10,18 +10,18 @@ permalink: /rasterizer/task1/
 
 Let's say the input to our `rasterize_triangle()` function is 3 points and a color: the three points being $A, B, C$, the vertices of our triangle of interest.
 The goal is to only fill indices in the pixel buffer which correspond to points inside the triangle. 
-In order to do this, the code begins by determining the bounding box of the triangle; it takes the minimum and maximum of both the $x$ and $y$ coordinates (call these $x_L, y_L, x_U, y_U$). 
-Then, the rectangle with two corners $(x_L, y_L), (x_U, y_U)$ contains the entire triangle, so we only have to test pixels lying inside this bounding box for containment in the triangle.
+In order to do this, the code begins by determining the bounding box of the triangle; it takes the minimum and maximum of both the $x$ and $y$ coordinates (call these \(x_L, y_L, x_U, y_U\)). 
+Then, the rectangle with two corners \((x_L, y_L), (x_U, y_U)\) contains the entire triangle, so we only have to test pixels lying inside this bounding box for containment in the triangle.
 In order to find which of these pixels should be colored, I used the line-test approach for determining triangle containment of a point.
 
 For the line tests to work correctly, it's necessary to ensure that our points are in counterclockwise (CCW) order, so we check that before beginning to iterate over pixels in the bounding box.
 This can be done by taking the cross product of the two vectors ${AB}, {AC}$.
-If the points are in CCW order, the angle $\theta$ between ${AB}, {AC}$ is between $0$ and $\pi$, so that the cross product ${AB} \times {AC} = |{AB}||{AC}| \sin \theta$ is positive.
-Otherwise, the angle $\theta$ is between $-\pi$ and $0$, so that the cross product is negative.
-If the cross product is negative, the code simply interchanges points $B$ and $C$, which changes the order of the vertices to CCW from clockwise (CW).
+If the points are in CCW order, the angle \(\theta\) between \({AB}, {AC}\) is between 0 and \(\pi\), so that the cross product \({AB} \times {AC} = |{AB}||{AC}| \sin \theta\) is positive.
+Otherwise, the angle \(\theta\) is between \(-\pi\) and 0, so that the cross product is negative.
+If the cross product is negative, the code simply interchanges points \(B\) and \(C\), which changes the order of the vertices to CCW from clockwise (CW).
 
 Now that the points are in CCW order, the line tests can be computed, so we can progress to iterating over all pixels in the bounding box and evaluating the line test at each point.
-The line test for a given point $P$ and some "directed" side of the triangle (for example $\overline{AB}$) involves taking the cross product of vectors ${AB}$ and ${AP}$; if it's positive, then $P$ is on the "left" side of the line, and otherwise $P$ is on the "right" side of the line.
+The line test for a given point \(P\) and some "directed" side of the triangle (for example \(\overline{AB}\)) involves taking the cross product of vectors \({AB}\) and \({AP}\); if it's positive, then \(P\) is on the "left" side of the line, and otherwise \(P\) is on the "right" side of the line.
 Since the vertices of the triangle are in CCW order, a point needs to be on the "left" of every one of these directed sides to be inside the triangle.
 Therefore, we take the coordinates of the pixel (and offset by 0.5 as necessary) and compute the three line tests. 
 If we find that all of these line tests return a positive integer, we can call `fill_pixel()` on the corresponding pixel with the given color, and that's the rasterization procedure.
