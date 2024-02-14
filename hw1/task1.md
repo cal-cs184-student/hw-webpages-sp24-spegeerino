@@ -15,8 +15,8 @@ Then, the rectangle with two corners \\((x_L, y_L), (x_U, y_U)\\) contains the e
 In order to find which of these pixels should be colored, I used the line-test approach for determining triangle containment of a point.
 
 For the line tests to work correctly, it's necessary to ensure that our points are in counterclockwise (CCW) order, so we check that before beginning to iterate over pixels in the bounding box.
-This can be done by taking the cross product of the two vectors \\({AB}, {AC}\\).
-If the points are in CCW order, the angle \\(\theta\\) between \\({AB}, {AC}\\) is between 0 and \\(\pi\\), so that the cross product \\({AB} \times {AC} = |{AB}||{AC}| \sin \theta\\) is positive.
+This can be done by taking the cross product of the two vectors \\(\overrightarrow{AB}, \overrightarrow{AC}\\).
+If the points are in CCW order, the angle \\(\theta\\) between \\({AB}, {AC}\\) is between 0 and \\(\pi\\), so that the cross product \\(\overrightarrow{AB} \times {AC} = |{AB}||{AC}| \sin \theta\\) is positive.
 Otherwise, the angle \\(\theta\\) is between \\(-\pi\\) and 0, so that the cross product is negative.
 If the cross product is negative, the code simply interchanges points \\(B\\) and \\(C\\), which changes the order of the vertices to CCW from clockwise (CW).
 
