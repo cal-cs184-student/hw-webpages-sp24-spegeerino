@@ -6,6 +6,10 @@ permalink: /rasterizer/task1/
 
 # Task 1: Drawing single-color triangles
 
+The goal of this task was to be able to take in the vertices of a triangle (in pixel space) and then draw it to the frame buffer. 
+The general approach is to check whether each pixel is contained in the given triangle, and if it is, replace the color in the buffer with the input color.
+However, to iterate over the entire frame buffer is quite slow, so I implemented some optimizations to make the rasterizer run in a reasonable amount of time.  
+
 ## The rasterization process (the naive method)
 
 Let's say the input to our `rasterize_triangle()` function is 3 points and a color: the three points being \\(A, B, C\\), the vertices of our triangle of interest.

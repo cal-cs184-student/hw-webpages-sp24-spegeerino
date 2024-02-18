@@ -5,7 +5,15 @@ permalink: /rasterizer/
 ---
 
 # Homework 1: Rasterizer
-There's a table of contents at the bottom for easier access to the writeup.
+[Table of Contents]({{site.baseurl}}/rasterizer#table-of-contents)
+## Introduction
+This was the first homework/project for CS 184, which involved implementing a rasterizer for SVG files so they could be displayed in PNG format. 
+Simple colored points and lines are drawn (although without any antialiasing).
+The rasterizer handles any solid-color polygon in SVG format, by breaking it down into several solid-color triangles and then drawing each individually.
+The rasterizer also has support for the "tri-color" triangle, which supports interpolating colors between the three vertex colors to get a spectrum of colors.
+Finally, texture-mapping onto triangles is also supported, with bilinear and trilinear sampling from mipmaps (along with some less advanced options).  
+
+# Showcase
 
 # [Task 1: Drawing single-color triangles]({{site.baseurl}}/rasterizer/task1/)
 
@@ -42,7 +50,7 @@ There's a table of contents at the bottom for easier access to the writeup.
 
 # [Task 6: "Level sampling" by mipmaps for texture mapping]({{site.baseurl}}/rasterizer/task6/)
 
-[# Something creative?]({{site.baseurl}}/rasterizer/ec/)
+# [Something creative?]({{site.baseurl}}/rasterizer/ec/)
 
 # Table of contents
 
