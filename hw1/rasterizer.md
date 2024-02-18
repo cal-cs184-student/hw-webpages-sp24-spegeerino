@@ -46,6 +46,7 @@ Finally, texture-mapping onto triangles is also supported, with bilinear and tri
 ![Robot doing a cartwheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task3-my-robot.png "Robot doing a cartwheel")
 
 # [Task 4: Barycentric coordinates]({{site.baseurl}}/rasterizer/task4/)
+![Color wheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task4-color-wheel.png "Color wheel")
 
 # [Task 5: "Pixel sampling" for texture mapping]({{site.baseurl}}/rasterizer/task5/)
 
