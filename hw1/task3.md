@@ -16,24 +16,28 @@ If we want to translate by some vector \\((\mathrm{d}x, \mathrm{d}y)\\), we simp
 The corresponding matrix transformation is therefore
 \\[
 \begin{pmatrix}
-1 & 0 & \mathrm{d}x \\
-0 & 1 & \mathrm{d}y \\
-0 & 0 & 1 \\
+1 & 0 & \mathrm{d}x \\\\
+0 & 1 & \mathrm{d}y \\\\
+0 & 0 & 1 \\\\
 \end{pmatrix}
 \\]
 For scaling in the \\(x\\)-direction by \\(s_x\\) and the \\(y\\)-direction by \\(s_y\\), we want the matrix
 \\[
 \begin{pmatrix}
-s_x & 0 & 0 \\
-0 & s_y & 0 \\
-0 & 0 & 1 \\
+s_x & 0 & 0 \\\\
+0 & s_y & 0 \\\\
+0 & 0 & 1 \\\\
 \end{pmatrix}
 \\]
-Finally, for rotation by an angle \\(\theta\\) in the counterclockwise direction, we want the matrix
+Finally, for rotation by an angle \\(\theta\\) in the counterclockwise direction, we need to rotate the \\(x\\)-coordinate vector and \\(y\\)-coordinate vector by the angle \\(\theta\\), so we want the matrix
 \\[
 \begin{pmatrix}
-s_x & 0 & 0 \\
-0 & s_y & 0 \\
-0 & 0 & 1 \\
+\cos \theta & -\sin \theta & 0 \\\\
+\sin \theta & \cos \theta & 0 \\\\
+0 & 0 & 1 \\\\
 \end{pmatrix}
 \\]
+
+Once these transforms were implemented, I could transform any svg image I wanted.
+I took a provided image of an svg robot, and tried to make it look like it was doing a cartwheel; I don't think I did a very good job, but here it is:
+![Robot doing a cartwheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task3-my-robot.png "Robot doing a cartwheel")

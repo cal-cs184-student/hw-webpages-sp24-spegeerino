@@ -43,6 +43,7 @@ Finally, texture-mapping onto triangles is also supported, with bilinear and tri
 ![Sample rate 16 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR16.png "Sample rate 16")
 
 # [Task 3: Transforms]({{site.baseurl}}/rasterizer/task3/)
+![Robot doing a cartwheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task3-my-robot.png "Robot doing a cartwheel")
 
 # [Task 4: Barycentric coordinates]({{site.baseurl}}/rasterizer/task4/)
 
