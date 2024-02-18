@@ -41,18 +41,18 @@ On the top right of the images is a pixel viewer.
 The pixel viewers are aimed at the edges of the drawn triangles, so that the antialiasing effect can be better seen.
 The main difference is that the slower drop-off in color allows the edge to be rendered more faithfully, and prevents edges that cut across the border of pixels in odd ways from instead looking like jagged staircases (as the containment computation varies in a strange way relative to the grid).
 ### 1 sample per pixel
-![Sample rate 1 render of colored triangles with pixel viewer](images/task2-svg4-SR1.png "Sample rate 1")
+![Sample rate 1 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR1.png "Sample rate 1")
 ### 4 samples per pixel
-![Sample rate 4 render of colored triangles with pixel viewer](images/task2-svg4-SR4.png "Sample rate 4")
+![Sample rate 4 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR4.png "Sample rate 4")
 ### 16 samples per pixel
-![Sample rate 16 render of colored triangles with pixel viewer](images/task2-svg4-SR16.png "Sample rate 16")
+![Sample rate 16 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR16.png "Sample rate 16")
 The pixel viewer here points at the top right edge of the cube. 
 ### 1 sample per pixel
-![Sample rate 1 render of cube with pixel viewer](images/task2-svg5-SR1.png "Sample rate 1")
+![Sample rate 1 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR1.png "Sample rate 1")
 ### 4 samples per pixel
-![Sample rate 4 render of cube with pixel viewer](images/task2-svg5-SR4.png "Sample rate 4")
+![Sample rate 4 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR4.png "Sample rate 4")
 ### 16 samples per pixel
-![Sample rate 16 render of cube with pixel viewer](images/task2-svg5-SR16.png "Sample rate 16")
+![Sample rate 16 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR16.png "Sample rate 16")
 
 ## Footnotes
 

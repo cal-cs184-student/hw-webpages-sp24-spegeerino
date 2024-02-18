@@ -17,30 +17,30 @@ Finally, texture-mapping onto triangles is also supported, with bilinear and tri
 
 # [Task 1: Drawing single-color triangles]({{site.baseurl}}/rasterizer/task1/)
 
-![Sample rate 1 render of dragon](images/task1-render-basic-svg3.png "Sample rate 1 render of dragon")
+![Sample rate 1 render of dragon](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task1-render-basic-svg3.png "Sample rate 1 render of dragon")
 
-![Sample rate 1 render of colored triangles](images/task1-render-basic-svg4.png "Sample rate 1 render of several colored triangles")
+![Sample rate 1 render of colored triangles](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task1-render-basic-svg4.png "Sample rate 1 render of several colored triangles")
 
-![Sample rate 1 render of a cube](images/task1-render-basic-svg5.png "Sample rate 1 render of a cube")
+![Sample rate 1 render of a cube](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task1-render-basic-svg5.png "Sample rate 1 render of a cube")
 
-![Sample rate 1 render of stars and hexagons](images/task1-render-basic-svg6.png "Sample rate 1 render of stars and hexagons")
+![Sample rate 1 render of stars and hexagons](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task1-render-basic-svg6.png "Sample rate 1 render of stars and hexagons")
 
 # [Task 2: Antialiasing by supersampling]({{site.baseurl}}/rasterizer/task2/)
 
 ## Triangles comparison
 ### 1 sample per pixel
-![Sample rate 1 render of colored triangles with pixel viewer](images/task2-svg4-SR1.png "Sample rate 1")
+![Sample rate 1 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR1.png "Sample rate 1")
 ### 4 samples per pixel
-![Sample rate 4 render of colored triangles with pixel viewer](images/task2-svg4-SR4.png "Sample rate 4")
+![Sample rate 4 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR4.png "Sample rate 4")
 ### 16 samples per pixel
-![Sample rate 16 render of colored triangles with pixel viewer](images/task2-svg4-SR16.png "Sample rate 16")
+![Sample rate 16 render of colored triangles with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg4-SR16.png "Sample rate 16")
 ## Cube comparison
 ### 1 sample per pixel
-![Sample rate 1 render of cube with pixel viewer](images/task2-svg5-SR1.png "Sample rate 1")
+![Sample rate 1 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR1.png "Sample rate 1")
 ### 4 samples per pixel
-![Sample rate 4 render of cube with pixel viewer](images/task2-svg5-SR4.png "Sample rate 4")
+![Sample rate 4 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR4.png "Sample rate 4")
 ### 16 samples per pixel
-![Sample rate 16 render of cube with pixel viewer](images/task2-svg5-SR16.png "Sample rate 16")
+![Sample rate 16 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR16.png "Sample rate 16")
 
 # [Task 3: Transforms]({{site.baseurl}}/rasterizer/task3/)
 
