@@ -49,6 +49,7 @@ Finally, texture-mapping onto triangles is also supported, with bilinear and tri
 ![Color wheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task4-color-wheel.png "Color wheel")
 
 # [Task 5: "Pixel sampling" for texture mapping]({{site.baseurl}}/rasterizer/task5/)
+![Campanile with bilinear sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-bilinear)
 
 # [Task 6: "Level sampling" by mipmaps for texture mapping]({{site.baseurl}}/rasterizer/task6/)
 
