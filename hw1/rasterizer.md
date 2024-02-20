@@ -52,6 +52,7 @@ Finally, texture-mapping onto triangles is also supported, with bilinear and tri
 ![Campanile with bilinear sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-bilinear)
 
 # [Task 6: "Level sampling" by mipmaps for texture mapping]({{site.baseurl}}/rasterizer/task6/)
+![Deer nearest level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-NL)
 
 # [Something creative?]({{site.baseurl}}/rasterizer/ec/)
 

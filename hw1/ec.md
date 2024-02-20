@@ -5,3 +5,4 @@ permalink: /rasterizer/ec/
 ---
 
 # Having fun with the rasterizer
+Planning on doing this soon!
