@@ -5,6 +5,7 @@ permalink: /rasterizer/task5/
 ---
 
 # Task 5: "Pixel sampling" for texture mapping
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 ## What is pixel sampling?
 Textures typically aren't stored as images that look good to human eyes.
@@ -44,3 +45,5 @@ These next two images are supersampled with a 4x4 grid in each pixel, which in m
 
 ![Campanile with nearest sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-nearest.png)
 ![Campanile with bilinear sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-bilinear.png)
+
+[Back to main page]({{site.baseurl}}/rasterizer/)

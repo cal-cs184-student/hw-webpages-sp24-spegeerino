@@ -5,6 +5,7 @@ permalink: /rasterizer/task1/
 ---
 
 # Task 1: Drawing single-color triangles
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 The goal of this task was to be able to take in the vertices of a triangle (in pixel space) and then draw it to the frame buffer. 
 The general approach is to check whether each pixel is contained in the given triangle, and if it is, replace the color in the buffer with the input color.
@@ -66,3 +67,5 @@ Here are some timing comparisons for my naive implementation vs my optimized imp
 
 On the dragon svg, the optimized implementation rasterized in approximately 60.3% of the time (a 65.8% speedup).
 On the triangle svg, the optimized implementation rasterized in approximately 66.6% of the time (a 50.1% speedup). 
+
+[Back to main page]({{site.baseurl}}/rasterizer/)

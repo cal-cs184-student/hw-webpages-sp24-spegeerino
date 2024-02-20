@@ -5,6 +5,8 @@ permalink: /rasterizer/task6/
 ---
 
 # Task 6: "Level sampling" with mipmaps for texture mapping
+[Back to main page]({{site.baseurl}}/rasterizer/)
+
 In this task, I implement one final method to help reduce aliasing while trying to compromise as little as possible on image quality.
 This is the technique of mipmaps, which adjusts the sampling strategy for each pixel dynamically across the image to try to use high detail where necessary to prevent blurriness and low detail in other places to prevent aliasing.
 ## What is level sampling?
@@ -56,6 +58,8 @@ In my opinion, though, this technique is overkill for this specific image, and r
 The first of the two images below is the level interpolation technique alone, then the last image has both level interpolation and pixel interpolation.
 ![Deer linear level nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LN.png)
 ![Deer linear level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LL.png)
+
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 [^1]: Downscaling (\\(n \times n\\) downscaling) consists of grouping pixels together in \\(n \times n\\) groups and then taking the average of all of those groups to make a image that is smaller by a factor of \\(n^2\\) pixels.
 

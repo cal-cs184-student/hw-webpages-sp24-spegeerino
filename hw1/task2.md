@@ -5,6 +5,7 @@ permalink: /rasterizer/task2/
 ---
 
 # Task 2: Antialiasing by supersampling
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 ## The problem and the solution
 
@@ -53,6 +54,8 @@ The pixel viewer here points at the top right edge of the cube.
 ![Sample rate 4 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR4.png "Sample rate 4")
 ### 16 samples per pixel
 ![Sample rate 16 render of cube with pixel viewer](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task2-svg5-SR16.png "Sample rate 16")
+
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 ## Footnotes
 

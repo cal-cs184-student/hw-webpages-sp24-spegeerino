@@ -5,6 +5,8 @@ permalink: /rasterizer/task3/
 ---
 
 # Task 3: Transforms
+[Back to main page]({{site.baseurl}}/rasterizer/)
+
 This task involved allowing for transforms in the svg file.
 Essentially, this boiled down to computing the right matrices to scale, rotate, and translate certain points and vectors in homogenous 2D coordinates. 
 Then, we simply multiply each coordinate of interest (usually vertices of triangles) by the various transforms applied to it and get out the correct homogenous coordinates in the picture.
@@ -52,3 +54,5 @@ Finally, for rotation by an angle \\(\theta\\) in the counterclockwise direction
 Once these transforms were implemented, I could transform any svg image I wanted.
 I took a provided image of an svg robot, and tried to make it look like it was doing a cartwheel; I don't think I did a very good job, but here it is:
 ![Robot doing a cartwheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task3-my-robot.png "Robot doing a cartwheel")
+
+[Back to main page]({{site.baseurl}}/rasterizer/)

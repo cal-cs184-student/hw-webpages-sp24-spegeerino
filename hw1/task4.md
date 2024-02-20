@@ -5,6 +5,7 @@ permalink: /rasterizer/task4/
 ---
 
 # Task 4: Barycentric coordinates
+[Back to main page]({{site.baseurl}}/rasterizer/)
 
 This task involved implementing triangles with a bit more variation in color; in particular, triangles that blend smoothly between three colors defined at their vertices.
 The way that this is achieved in practice is by using barycentric coordinates, a coordinate system that is entirely based on the given triangle and its vertices.
@@ -34,3 +35,5 @@ Once we have these coordinates, we can simply use the same weights on the colors
 We can use this color interpolation to use a lot fewer triangles than solid color triangles would require in cases where colors are blended smoothly.
 For example, take this color wheel:
 ![Color wheel](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task4-color-wheel.png "Color wheel")
+
+[Back to main page]({{site.baseurl}}/rasterizer/)
