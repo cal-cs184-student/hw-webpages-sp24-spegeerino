@@ -13,6 +13,10 @@ The rasterizer handles any solid-color polygon in SVG format, by breaking it dow
 The rasterizer also has support for the "tri-color" triangle, which supports interpolating colors between the three vertex colors to get a spectrum of colors.
 Finally, texture-mapping onto triangles is also supported, with bilinear and trilinear sampling from mipmaps (along with some less advanced options).  
 
+This homework was really fun.
+I enjoyed the process of coding (I especially liked optimizing the rasterization code, but I didn't have enough time to play around with that as much as I wanted to.)
+I definitely feel like I have a much better appreciation and intuition for the rasterization pipeline and the various antialiasing methods I implemented throughout the project (supersampling, and pixel/level sampling + interpolation for textured triangles).
+I especially learned a lot from implementing the mipmap sampling system.
 # Showcase
 
 # [Task 1: Drawing single-color triangles]({{site.baseurl}}/rasterizer/task1/)
