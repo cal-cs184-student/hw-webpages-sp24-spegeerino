@@ -35,12 +35,12 @@ In some cases, bilinear sampling will be much better looking than nearest sampli
 For example, look at the next two images; the first is nearest pixel sampling, and the second is bilinear pixel sampling.
 You should see that the bilinear sampling renders the spike on top of the Campanile more faithfully than nearest sampling, since when the texture gets really thin towards the top, bilinear sampling can still display a change in color, but nearest sampling just misses the thin strip of pixels entirely.
 
-![Campanile with nearest sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-nearest)
-![Campanile with bilinear sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-bilinear)
+![Campanile with nearest sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-nearest.png)
+![Campanile with bilinear sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-bilinear.png)
 
 However, increasing the sample rate can actually change the favor to nearest sampling; when we sample more, the more densely packed grid of samples can pick up on the details in the texture even with just nearest sampling. 
 At that point, bilinear sampling only serves to make everything blurrier and therefore harder to see. 
 These next two images are supersampled with a 4x4 grid in each pixel, which in my opinion makes nearest sampling look better than bilinear sampling.
 
-![Campanile with nearest sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-nearest)
-![Campanile with bilinear sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-bilinear)
+![Campanile with nearest sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-nearest.png)
+![Campanile with bilinear sampling, supersampled](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task5-campanile-supersample-bilinear.png)

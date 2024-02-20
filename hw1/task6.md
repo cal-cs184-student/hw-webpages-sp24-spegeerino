@@ -36,26 +36,26 @@ This efficacy and time efficiency comes at the cost of taking up more memory tha
 ## The comparison
 Here are a couple of images with different level and pixel sampling techniques used.
 The first image is one with no level sampling or pixel interpolation for comparison; the pixel viewer is aimed at the trail of two shooting stars, which can be seen to have significant aliasing.
-![Deer level zero nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-0N)
+![Deer level zero nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-0N.png)
 
 The next image has interpolation in pixel sampling, but no level sampling; the aliasing is somewhat improved, but we can also see residual blurring even though the aliasing problem is not solved. 
 Importantly, this blurring appears in the rest of the image as well, even in places it was unnecessary.
-![Deer level zero linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-0L)
+![Deer level zero linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-0L.png)
 
 The next image uses mipmaps, sampling from the nearest level to the value returned by our heuristic (computed via the derivative) but no pixel interpolation.
 We can see here that the streak of pixels is actually connected properly now, but the edges of the line are still quite jagged. 
-![Deer nearest level nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-NN)
+![Deer nearest level nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-NN.png)
 
 Next has both nearest level mipmaps and pixel interpolation, which produces the best result in my opinion.
 The streak of pixels connects properly and appears relatively straight to the eye.
 Some detail is lost in the rest of the image, but I think the tradeoff is well worth it for how good the comets look.
-![Deer nearest level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-NL)
+![Deer nearest level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-NL.png)
 
 Finally, there is an advanced technique for level sampling where we interpolate the pixel sample between the two nearest mipmap levels, which can be even more effective in preventing aliasing.
 In my opinion, though, this technique is overkill for this specific image, and results in the image losing unnecessary amounts of detail.
 The first of the two images below is the level interpolation technique alone, then the last image has both level interpolation and pixel interpolation.
-![Deer linear level nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LN)
-![Deer linear level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LL)
+![Deer linear level nearest pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LN.png)
+![Deer linear level linear pixel sampling](/hw-webpages-sp24-spegeerino/docs/assets/hw1images/task6-deer-LL.png)
 
 [^1]: Downscaling (\\(n \times n\\) downscaling) consists of grouping pixels together in \\(n \times n\\) groups and then taking the average of all of those groups to make a image that is smaller by a factor of \\(n^2\\) pixels.
 
