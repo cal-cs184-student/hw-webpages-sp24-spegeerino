@@ -2,6 +2,7 @@
 layout: default
 title: "Homework 1: Rasterizer"
 permalink: /rasterizer/
+author: Aditya Baireddy
 ---
 
 # Homework 1: Rasterizer

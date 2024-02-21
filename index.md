@@ -6,7 +6,7 @@ I will populate this page with some of the renders from the projects as they are
 
 # [Homework 1 - Rasterizer]({{site.baseurl}}/rasterizer)
  
-# Homework 2
+# [Homework 2 - MeshEdit]({{site.baseurl}}/meshedit)
  
 # Homework 3
  
