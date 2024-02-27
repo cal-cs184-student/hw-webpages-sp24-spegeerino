@@ -21,9 +21,9 @@ Overall, \(reflection on project goes here\)
 ### [Task 1: Bezier curves with 1D de Casteljau subdivision]({{site.baseurl}}/meshedit/task1)
 ![Bezier curve render example]({{site.baseurl}}/docs/assets/hw2images/task1-full-curve.png)
 ### [Task 2: Bezier surfaces with separable 1D de Casteljau]({{site.baseurl}}/meshedit/task2)
-
+![Teapot made of Bezier surfaces]({{site.baseurl}}/docs/assets/hw2images/task2-example.png)
 ### [Task 3: Area-weighted vertex normals]({{site.baseurl}}/meshedit/task3)
-
+![Cow with Phong shading]({{site.baseurl}}/docs/assets/hw2images/task3-showcase.png)
 ### [Task 4: Edge flip]({{site.baseurl}}/meshedit/task4)
 
 ### [Task 5: Edge split]({{site.baseurl}}/meshedit/task5)
