@@ -15,7 +15,7 @@ This second part of the homework was about another common method of 3D geometric
 To be specific, we implemented some standard features of a triangular mesh (with an underlying *half-edge* data structure), like Phong shading via weighted area normal vectors and loop subdivision for mesh upscaling.
 These features enhance the visual appearance of a mesh modeled around some object; Phong shading allows interpolated shading along the face of a single triangle to make the shading look continuous, and upscaling a mesh gives more detail and smooths out harsh edges in a mesh with few polygons.
 
-Overall, \(reflection on project goes here\)
+## Reflection and debugging woes
 
 ## Showcase
 ### [Task 1: Bezier curves with 1D de Casteljau subdivision]({{site.baseurl}}/meshedit/task1)
