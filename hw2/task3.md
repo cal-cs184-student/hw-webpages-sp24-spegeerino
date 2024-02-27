@@ -79,4 +79,4 @@ Our actual implementation collected neighboring vertices in a list in clockwise 
 ## How does it look?
 The end result is really a quite substantial visual improvement, so much so I think I don't need to say which is flat shading and which is Phong (although it comes at quite a cost computationally, so you could also determine the difference by looking at the framerate in the bottom left corner):
 ![Teapot with flat shading]({{site.baseurl}}/docs/assets/hw2images/task3-flat-shading.png)
-![Teapot with Phong shading]({{site.baseurl}}/docs/assets/hw2images/task3-flat-shading.png)
+![Teapot with Phong shading]({{site.baseurl}}/docs/assets/hw2images/task3-phong-shading.png)
