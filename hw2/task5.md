@@ -11,7 +11,7 @@ author: Aditya Baireddy and Andrew Liu
 To split an edge, we drew the following diagram on a whiteboard and stared at it for 20 minutes:
 
 <p style = "text-align:center">
-	<img src = "../docs/assets/hw2images/task5-edge-split.png" alt="a diagram showing the edge split operation" width="50%" style="text-align:center"/>
+	<img src = "/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-edge-split.png" alt="a diagram showing the edge split operation" width="50%" style="text-align:center"/>
 </p>
 
 Then, we created the new elements needed, namely \\(m, h_2, h_3, h_4, h_5, h_6, h_7, e_1, e_2, e_3, f_2,\\) and \\(f_3\\). After that, we began the long list of pointer assignments:
@@ -43,6 +43,6 @@ Then, we created the new elements needed, namely \\(m, h_2, h_3, h_4, h_5, h_6, 
 Through staring at the diagram sufficiently long, and learning that you can assign to a return value of a function from task 4, our implementation worked first try, and we spent non-trivial time splitting edges and trying to prove that our implementation was broken. It in fact, was not broken. Below are images of split edges and split and flipped edges:
 
 <p style = "text-align:center">
-	<img src="../docs/assets/hw2images/task5-split.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
-	<img src="../docs/assets/hw2images/task5-split-flip.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split-flip.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
 </p>

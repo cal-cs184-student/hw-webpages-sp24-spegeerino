@@ -9,7 +9,7 @@ author: Aditya Baireddy and Andrew Liu
 The overall goal of this task was to flip an edge, which involved several pointer reassignments, as shown in the below diagram:
 
 <p style = "text-align:center">
-	<img src="../docs/assets/hw2images/task4-edge-flip.png" alt="a diagram showing the edge flip operation" width="30%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task4-edge-flip.png" alt="a diagram showing the edge flip operation" width="30%" style="text-align:center"/>
 </p>
 
 ## The Theory
@@ -51,5 +51,5 @@ Our debugging journey mostly consisted of some weird bugs where an edge would fl
 ## The Practice
 
 <p style = "text-align:center">
-	<img src="../docs/assets/hw2images/task4-flipped-teapot.png" alt="a mesh of a teapot with a few edges flipped" width="40%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task4-flipped-teapot.png" alt="a mesh of a teapot with a few edges flipped" width="40%" style="text-align:center"/>
 </p>
