@@ -66,7 +66,10 @@ Here's the procedure:
 What's going on here?
 Essentially, we iterate over halfedges with source vertex \\(x\\) *clockwise*: this diagram shows how we get from one vertex to the next (and why it's clockwise when halfedges go counterclockwise around a face):
 
-Insert diagram here
+![Diagram of halfedges in our neighboring face traversal]({{site.baseurl}}/docs/assets/hw2images/task3-halfedge-expl.png)
+
+Suppose the blue arrow is \\(V\\)'s halfedge.
+The red arrow would be that halfedge's twin, and then the green arrow would be the next halfedge of the twin, which is clockwise from the blue arrow.
 
 Then, we use the fact that the area of a triangle is equal to \\(\frac12 ab \sin C\\), where \\(a,b\\) are side lengths of the triangle and \\(C\\) is the angle between those two sides.
 This can also be written as \\(\frac12 \cdot \overrightarrow{a} \times \overrightarrow{b}\\), since the cross product incurs this \\(\sin C\\) coefficient.
