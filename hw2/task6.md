@@ -27,7 +27,11 @@ Our implementation was essentially split into 5 steps:
 ### Wait, this works?
 It may seem surprising that steps 3 and 4 actually do divide every triangle in the 4-1 fashion that we described conceptually above.
 However, we can just consider an arbitrary triangle in the mesh; we split its three edges in some arbitrary order.
-![Diagram of equivalence between subdivision generation]({{site.baseurl}}/docs/assets/hw2images/task6-subdivision-proof.png)
+
+<p style = "text-align:center">
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task6-subdivision-proof.png" alt="Diagram of equivalence between subdivision generation methods" width="60%" style="text-align:center"/>
+</p>
+
 In this diagram, we split the red outer edge first giving us the red edge through the triangle, then we split the blue and green outer edges in any order giving us the other blue and green edges.
 The first edge we split will create a new edge that connects an old vertex (the one between the green and blue edges) and a new vertex (the one in the middle of the red edge).
 Then, the other two edges will connect exactly as they're supposed to in order to subdivide the triangle into 4 triangles.
