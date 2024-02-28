@@ -43,6 +43,6 @@ Then, we created the new elements needed, namely \\(m, h_2, h_3, h_4, h_5, h_6, 
 Through staring at the diagram sufficiently long, and learning that you can assign to a return value of a function from task 4, our implementation worked first try, and we spent non-trivial time splitting edges and trying to prove that our implementation was broken. It in fact, was not broken. Below are images of split edges and split and flipped edges:
 
 <p style = "text-align:center">
-	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
-	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split-flip.png" alt="a diagram showing the edge split operation" width="40%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split.png" alt="edge splits on a teapot" width="40%" style="text-align:center"/>
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-split-flip.png" alt="edge flips and splits on a teapot" width="40%" style="text-align:center"/>
 </p>
