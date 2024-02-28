@@ -25,9 +25,15 @@ These features enhance the visual appearance of a mesh modeled around some objec
 ### [Task 3: Area-weighted vertex normals]({{site.baseurl}}/meshedit/task3)
 ![Cow with Phong shading]({{site.baseurl}}/docs/assets/hw2images/task3-showcase.png)
 ### [Task 4: Edge flip]({{site.baseurl}}/meshedit/task4)
-![Edge flip diagram]({{site.baseurl}}/docs/assets/hw2images/task4-edge-flip.png)
+<p style = "text-align:center">
+	<img src="/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task4-edge-flip.png" alt="a diagram showing the edge flip operation" width="30%" style="text-align:center"/>
+</p>
+
 ### [Task 5: Edge split]({{site.baseurl}}/meshedit/task5)
-![Edge split diagram]({{site.baseurl}}/docs/assets/hw2images/task5-edge-split.png)
+<p style = "text-align:center">
+	<img src = "/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task5-edge-split.png" alt="a diagram showing the edge split operation" width="50%" style="text-align:center"/>
+</p>
+
 ### [Task 6: Loop subdivision for mesh upsampling]({{site.baseurl}}/meshedit/task6)
 
 ## Table of Contents
