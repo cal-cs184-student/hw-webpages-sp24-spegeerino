@@ -6,7 +6,7 @@ author: Aditya Baireddy and Andrew Liu
 ---
 [Back to main page]({{site.baseurl}}/meshedit)
 # Task 5: Edge split
-## The Theory
+## The theory
 
 To split an edge, we drew the following diagram on a whiteboard and stared at it for 20 minutes:
 
