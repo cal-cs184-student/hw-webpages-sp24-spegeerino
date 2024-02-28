@@ -66,6 +66,9 @@ Here's the procedure:
 What's going on here?
 Essentially, we iterate over halfedges with source vertex \\(x\\) *clockwise*: this diagram shows how we get from one vertex to the next (and why it's clockwise when halfedges go counterclockwise around a face):
 
+<p>
+    <img src = "/hw-webpages-sp24-spegeerino/docs/assets/hw2images/task3-halfedge-expl.png" alt = "a diagram to explain how halfedges work" width = "40%" style = "text-align:center"/>
+</p>
 ![Diagram of halfedges in our neighboring face traversal]({{site.baseurl}}/docs/assets/hw2images/task3-halfedge-expl.png)
 
 Suppose the blue arrow is \\(V\\)'s halfedge.
