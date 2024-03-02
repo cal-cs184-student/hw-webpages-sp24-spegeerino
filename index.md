@@ -8,7 +8,7 @@ I will populate this page with some of the renders from the projects as they are
  
 # [Homework 2 - MeshEdit]({{site.baseurl}}/meshedit)
  
-# Homework 3
+# [Homework 3 - PathTracer]({{site.baseurl}}/pathtracer)
  
 # Homework 4
  
