@@ -40,7 +40,7 @@ v
 \]
 </p>
 
-Now, in order to solve this equation for $t,u,v$, we can apply Cramer's rule and compute the determinants of **M** with one column replaced by $O-A$.
+Now, in order to solve this equation for $t,u,v$, we can apply Cramer's rule and compute the determinants of $\mathbf{M}$ with one column replaced by $O-A$.
 Then we need to check each value to see if the intersection of the ray with the plane is in the correct place; if any of these checks fail, we can immediately return that no intersection exists. 
 First, we compute $t$ and check that $t$ falls between the ray's bounds for where its intersection are allowed to occur.
 Then, we compute $u$, which has to fall between $0$ and $1$.
@@ -50,7 +50,7 @@ If all of these checks pass, then the barycentric coordinates of $O + tD$ fall i
 ## That's a lot of determinants, isn't it?
 So far, this algorithm appears quite inefficient: we compute four separate determinants of 3x3 matrices ($1$ for parallel check, $3+1$ for Cramer's rule, but the fourth one is the same matrix as the parallel check), which should be really slow.
 However, the determinants involve a lot of the same vectors, which actually allows us to save a LOT of operations.
-We make use of the fact that $\(\mathbf{u} \times \mathbf{v}\) \dot \mathbf{w}$ is actually the determinant of the matrix with columns $\mathbf{u}, \mathbf{v}, \mathbf{w}$. 
+We make use of the fact that $\(\mathbf{u} \times \mathbf{v}\) \cdot \mathbf{w}$ is actually the determinant of the matrix with columns $\mathbf{u}, \mathbf{v}, \mathbf{w}$. 
 Further, we can do a lot of tricks with swapping columns flipping the sign of the determinant to reuse cross products that we've already computed.
 Overall, in the worst case, we do 2 cross products and 4 dot products, which is 18 multiplications and 12 additions, compared to 48 multiplications and 20 additions for a naive determinant computation. 
 
