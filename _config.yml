@@ -4,3 +4,7 @@ title: CS 184 Showcase
 description: > 
   This page is for homework and project writeups from CS 184, a computer graphics course
   at Berkeley. 
+
+defaults: 
+  - scope:
+      path: "docs/assets"
