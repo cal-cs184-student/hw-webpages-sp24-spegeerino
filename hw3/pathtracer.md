@@ -37,8 +37,11 @@ The problem was simple: the code never checked that light could actually reach t
 An easy fix, but one that took a baffling amount of time.
 
 Also after finishing task 4, we noticed that our outputs were kind of grainy when compared to staff renders: not significant, but enough to be noticeable.
+Part of the issue was that Russian Roulette continuation probabilities were being applied to the first indirect bounce, unlike what the spec says, which leads to any indirect lighting being much more grainy overall.
+But this wasn't the whole story: the lighting was still slightly grainy after this too. 
 Honestly, we're not sure we even fully fixed this, but our best guess was that this was caused by using a different (smaller) epsilon in our bounding box intersection than provided by the code, and this was leading to more rays disappearing... somehow? 
 Changing the epsilon to `EPS_F` appeared to help, but we're not 100% sure why. 
+After that point, we weren't sure if we were still detecting more graininess than staff, or we were just seeing things that weren't there, so we moved on. 
 ### Reflection
 Overall, this project was really, really fun. 
 The feeling of getting everything to work right and being rewarded with a beautiful render was really amazing, no matter how many times it happened.
