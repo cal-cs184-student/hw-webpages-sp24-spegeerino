@@ -16,11 +16,42 @@ We'll be taking a look at how changing these parameters changes the simulated mo
 ## Changing the spring constant
 The first thing we can do is to change the underlying spring constant for the springs in the mass-spring representation of the cloth.
 Intuitively, increasing the spring constant should make the cloth stiffer, while lowering it should make it bouncier; a lower spring constant will apply less corrective force to deformations, so deformations will last for more time.
-In the sequence below, the left column shows a spring constant of 500, the middle column a spring constant of 5,000 (the default), and the right column a spring constant of 50,000.
+In the sequence below, the left column shows a spring constant of 500, the middle column a spring constant of 5,000 (the default), and the right column a spring constant of 50,000:
 <p style="text-align:center">
 <img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
 <img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
 <img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
 <br>
+Everything starts in the same place.
+<br>
+<img src="../../docs/assets/hw4/pinned2_lowk_half_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_half_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_highk_half_fall.png" style="width:30%">
+<br>
 
+<br>
+<img src="../../docs/assets/hw4/pinned2_lowk_80_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_80_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_highk_80_fall.png" style="width:30%">
+<br>
+
+<br>
+<img src="../../docs/assets/hw4/pinned2_lowk_full_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_full_fall.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_highk_full_fall.png" style="width:30%">
+<br>
+
+<br>
+<img src="../../docs/assets/hw4/pinned2_lowk_vertical.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_vertical.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_highk_vertical.png" style="width:30%">
+<br>
+
+<br>
+<img src="../../docs/assets/hw4/pinned2_lowk_rest.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_rest.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_highk_rest.png" style="width:30%">
+<br>
+
+<br>
 </p>
