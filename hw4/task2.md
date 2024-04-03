@@ -18,7 +18,9 @@ The first thing we can do is to change the underlying spring constant for the sp
 Intuitively, increasing the spring constant should make the cloth stiffer, while lowering it should make it bouncier; a lower spring constant will apply less corrective force to deformations, so deformations will last for more time.
 In the sequence below, the left column shows a spring constant of 500, the middle column a spring constant of 5,000 (the default), and the right column a spring constant of 50,000.
 <p style="text-align:center">
-<img src="../docs/assets/hw4/pinned2_default_start" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
+<img src="../../docs/assets/hw4/pinned2_default_start.png" style="width:30%">
 <br>
 
 </p>
